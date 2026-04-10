@@ -1,0 +1,16 @@
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .responsive-img {
+    height: 400px  !important;
+    width: 100% !important;
+    object-fit: cover;
+
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
